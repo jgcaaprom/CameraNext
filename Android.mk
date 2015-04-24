@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := CameraNext
 LOCAL_CERTIFICATE := platform
-LOCAL_REQUIRED_MODULES := libjni_mosaic libjni_tinyplanet
+LOCAL_REQUIRED_MODULES := libjni_mosaic_next libjni_tinyplanet_next
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
